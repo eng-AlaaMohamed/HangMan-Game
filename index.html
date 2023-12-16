@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hangman Game</title>
+</head>
+<body>
+    <div class="contanire">
+        <!-- Start Game Head -->
+        <div class="game-info">
+            <span class="game-name">Hangman</span>
+            <span class="word-gategorey">Word From :<span class="gategorey"></span></span>
+        </div>
+         <!-- End Game Head -->
+        <hr>
+        <div class="game-content">
+            <!-- Start The Drawing -->
+            <div class="the-drawing">
+                <span class="base"></span>
+                <span class="tand"></span>
+                <span class="tand-h"></span>
+                <span class="tand-v"></span>
+                <span class="hang"></span>
+                <span class="man-head"></span>
+                <span class="man-body"></span>
+                <span class="man-hands"></span>
+                <span class="man-feet"></span>
+            </div>
+            <div class="letters"></div>
+            <!-- End The Drawing -->
+        </div>
+        <hr>
+        <!-- Start Letter Guess -->
+        <div class="letter-guess"></div>
+        <!-- End Letter Guess -->
+        <audio id="music-wrong" src="BQY5HXR-wrong.mp3"  preload="auto"></audio>
+        <audio id="music-correct" src="KFCNRZ8-the-correct-answer.mp3" preload="auto"></audio>
+        <audio id="music-end" src="7C9PV3J-game-musical-end.mp3"></audio>
+        <audio id="music-gain" src="DRKGYPE-victory.mp3" preload="auto"></audio>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
